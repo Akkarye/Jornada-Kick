@@ -1,0 +1,147 @@
+:root{
+    --cor01: #2a67a7;
+    --cor02: #4195ee;
+    --branco: #FFFFFF;
+    --cinza: #F1F1F1;
+    --ativo: #20c4ff;
+}
+
+body{
+    background-image: url(../imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+table{
+    background-color: var(--branco);
+    margin: auto;
+    width: 600px;
+}
+
+#header_box img{
+    width: 20%;
+    padding: 30px;
+}
+
+#nav_box{
+    border-top: 8px solid var(--cor01);
+    background-color: var(--cinza);
+    padding: 0;
+    margin: 0px;
+    height: 40px;
+}
+
+#nav_box ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav_box li{
+    float: left;
+}
+
+#nav_box a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.ativo{
+    background-color: var(--ativo);
+    color: var(--branco);
+}
+
+#nav_box a:hover:not(.ativo){
+    background-color: var(--cor02);
+    color: var(--branco);
+    transition: 0.4s;
+}
+
+#image_box{
+    width: 250px;
+}
+
+#image_box img{
+    width: 100%;
+}
+
+.article_box{
+    padding: 0 10px 10px 10px;
+    position: relative ;
+}
+
+.article_box h2{
+    border-top: 8px solid var(--cor01);
+    background-color: #F1F1F1;
+    padding: 10px;
+}
+
+.article_box p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.saiba-mais{
+    background-color: var(--cor01);
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.saiba-mais:hover{
+    background-color: var(--cor02);
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.suporte_box{
+    position: relative;
+    left: 190px;
+}
+
+form{
+    margin: 40px 0;
+}
+
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.inputpadrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: var(--cor01);
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.enviar:hover{
+    background-color: var(--cor02);
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#footer_box{
+    background-color: #111111;
+    color: var(--cinza);
+    font-size: 12px;
+    text-align: center;
+    height: 50px;
+}
