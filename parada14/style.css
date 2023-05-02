@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    min-height: 100vh;
+    width: 100%;
+    padding: 15px 200px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/faculdade.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.texto{
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.texto h1{
+    font-size: 62px;
+    color: #4e4eff;
+}
+
+.texto p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.texto a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.texto a:hover{
+    border: 1px solid #4e4eff;
+    background: #4e4eff;
+    transition: 1s;
+}
+
+.content{
+    display: flex;
+    margin: 0 40px;
+}
+
+.box{
+    padding: 35px;
+}
+
+.box h2{
+    border-bottom: 2px solid #000000;
+    color: #4e4eff;
+}
+
+.box p{
+    text-align: justify;
+}
+
+.mapa{
+    text-align: center;
+}
+
+.mapa h2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #4e4eff;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .texto h1{
+        font-size: 20px;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+}
