@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body{
+    background-color: #ffdead;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    margin: 15px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #b44a4a;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.banner{
+    min-height: 100vh;
+    width: 100%;
+    padding: 15px 200px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.texto{
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.texto h1{
+    font-size: 62px;
+    color: #f73535;
+}
+
+.texto p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.texto a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.texto a:hover{
+    border: 1px solid #f73535;
+    background: #f73535;
+    transition: 1s;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #483d8b;
+    padding: 5px;
+}
+
+.box{
+    text-align: justify;
+    font-size: 19px;
+    width: 350px;
+    height: 350px;
+    background-color: #ffffff;
+    color: #b44a4a;
+    margin: 5px;
+    padding: 15px;
+}
+
+.mapa{
+    text-align: center;
+    margin: 35px 0;
+}
+
+.mapa h2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #b44a4a;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
