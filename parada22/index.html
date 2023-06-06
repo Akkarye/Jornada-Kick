@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Formulário</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/validacao.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <div id="form_box">
+            <h2> Formulário de cadastro </h2>
+            <form action="">
+                <div class="f_line">
+                    <span>
+                        <label>Nome</label>
+                        <input type="text" id="i_nome" required>
+                    </span>
+                    <span>
+                        <label>Sobrenome</label>
+                        <input type="text" id="i_sobrenome" required>
+                    </span>
+                </div>
+
+                <div class="f_line">
+                    <span>
+                        <label>Data de nacimento</label>
+                        <input type="date" id="i_data" required>
+                    </span>
+                    <span>
+                        <label>Formação</label>
+                        <select>
+                            <option>Ensino fundamental</option>
+                            <option>Ensino médio</option>
+                            <option>Ensino superior</option>
+                        </select>
+                    </span>
+                </div>
+                    
+                <div class="f_line">
+                    <span>
+                        <label>Gênero</label>
+                        Feminino
+                        <input type="radio" name="i_genero" id="i_genero" checked>
+                        Masculino
+                        <input type="radio" name="i_genero" id="i_genero">
+                        Outro
+                        <input type="radio" name="i_genero" id="i_genero">
+                        </span>
+                </div>
+                    
+                <div class="f_line">
+                    <span>
+                        <label>Senha</label>
+                        <input type="password" id="i_senha" required>
+                    </span>
+                    <span>
+                        <label>Confirmar senha</label>
+                        <input type="password" id="i_conSenha" required>
+                    </span>
+                </div>
+
+                <div class="f_line">
+                    <span>
+                        <input id="btt_form" type="submit"onclick="" value="Cadastrar">
+                    </span>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background: url(img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#form_box{
+    margin: auto;
+    width: max-content;
+    padding: 15px;
+    background-color: #ebebebbb;
+    border-radius: 10px;
+}
+
+#form_box h2{
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.f_line{
+    display: flex;
+}
+
+.f_line span{
+    padding: 10px;
+}
+
+.f_line label{
+    display: block;
+    padding-bottom: 2px;
+}
+
+.f_line input[type=text], input[type=date], input[type=password], select{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+.f_line input[type=radio]{
+    border: 2px solid #808080;
+}
+
+#btt_form{
+    cursor: pointer;
+    width: 520px;
+    height: 50px;
+    background-color: #6962ee;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+#btt_form:hover{
+    transition: 0.5s;
+    background-color: #2519a3;
+}
