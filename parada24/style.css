@@ -1,0 +1,28 @@
+body {
+    background: url(bg.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+.container {
+    background: #ffffffd6;
+    color: rgb(0, 0, 111);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+  
+.input {
+    margin: 30px;
+    font-size: 1.4rem;
+}
+  
+.resultado {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
