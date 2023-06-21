@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulário de Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="endereço.js"></script>
+</head>
+<body>
+  <h1>Formulário de Cadastro</h1>
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="sobrenome">Sobrenome:</label>
+    <input type="text" id="sobrenome" name="sobrenome" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="cep">CEP:</label>
+    <input type="text" id="cep" name="cep" maxlength="8" onkeyup="buscarEndereco()" required>
+
+    <label for="rua">Rua:</label>
+    <input type="text" id="rua" name="rua" readonly>
+
+    <label for="bairro">Bairro:</label>
+    <input type="text" id="bairro" name="bairro" readonly>
+
+    <label for="cidade">Cidade:</label>
+    <input type="text" id="cidade" name="cidade" readonly>
+
+    <label for="estado">Estado:</label>
+    <input type="text" id="estado" name="estado" readonly>
+
+    <input type="submit" value="Cadastrar">
+  </form>
+</body>
+</html>
